@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronunciation Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .result {
+            margin-top: 20px;
+        }
+        .result-item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1>Pronunciation Checker</h1>
+<form id="search-form">
+    <label for="word-input">Enter a word in English:</label>
+    <input type="text" id="word-input" required>
+    <button type="submit">Check Pronunciation</button>
+</form>
+<div id="results" class="result"></div>
+
+<script src="js.js"></script>
+</body>
+</html>
